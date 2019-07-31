@@ -1,0 +1,29 @@
+.box-content {
+    padding: 0px;
+}
+.nav_store{
+    color: black;
+    margin: 10px;
+    background-image: url(../images/nav_store.jpg);
+    background-position: 100px 390px;
+    padding: 10px;
+
+}
+.nav_store p{
+    font-size: 20px;
+}
+.nav_store a{
+    color: black;
+    font-size: 16px;
+}
+.nav_store ul{
+    margin: 0px;
+}
+.nav_store ul li{
+    margin: 10px;
+}
+.nav_store ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}

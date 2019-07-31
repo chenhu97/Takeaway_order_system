@@ -1,0 +1,117 @@
+.car_header{
+    padding: 12px 10px;
+    height: 45px;
+    position: relative;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    background-color: #fafafa;
+    border-top: 2px solid #0089dc;
+
+}
+
+.car_header a{
+    color: #0089dc;
+    cursor: pointer;
+    text-decoration: none;
+}
+.car_header_icon{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #0089dc;
+    cursor: pointer;
+}
+.car_jiesuang{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border: 0;
+    outline: 0;
+    width: 120px;
+    text-align: center;
+    background-color: #51d862;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+.car_footer{
+    padding-left: 10px;
+    vertical-align: middle;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    height: 46px;
+    line-height: 46px;
+    background-color: #2c2c2c;
+    box-shadow: 0 1px 3px #2c2c2c;
+}
+.shop-cartbasket{
+    font-size: 16px;
+    z-index: 10;
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: #fff;
+    box-shadow: 0 1px 15px #ccc;
+    width: 300px;
+}
+.ibar_cart_title{
+    margin: 0px 12px;
+    float: left;
+}
+.cat_price{
+
+}
+#car_input_num {
+    border: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    vertical-align: top;
+    text-align: center;
+    outline: 0;
+    color: #666;
+    display: inline;
+    padding: 0px;
+
+}
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+}
+.car_list_button{
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    line-height: 18px;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    outline: 0;
+    display: inline;
+    cursor: pointer;
+    color: #666;
+    margin: 10px 0px;
+}
+.shop-cartbasket-tablerow {
+    display: table;
+    table-layout: fixed;
+    height: 45px;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: -1px;
+}
+.car_anniu{
+
+}
+.car_add_subtract{
+
+    display: none;
+}

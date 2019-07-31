@@ -1,0 +1,125 @@
+#menu .dropdown-inner a {
+    min-width: 0px;
+}
+#announce{
+    height: 100%;
+}
+#tab{
+    float: left;
+}
+#tab li{
+    float: left;
+    color: white;
+}
+#tab:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#tab li a{
+    color: white;
+    font-size: 20px;
+}
+.box-content {
+    padding:  0px;
+}
+#nav_tab{
+    margin: 20px;
+    background-image: url("../images/nav_tab.jpg");
+    background-position: 0px 125px;
+    padding: 20px;
+}
+#nav_search{
+    float: right;
+
+}
+#search_input,#search_submit{
+    margin-top: 0px;
+}
+#leimu{
+    margin: 20px 40px;
+    background-image: url("../images/nav_leimu.jpg");
+    background-position: 0px 125px;
+    padding: 20px;
+
+}
+#leimu a{
+    margin: 0px 10px;
+}
+#view_all{
+    margin-top: 20px;
+}
+.item:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.item img {
+    width: 300px;
+    height: 200px;
+}
+.item_miao{
+    margin: 20px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-description {
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+    max-width: 210px;
+}
+.leimu_remark{
+    font-size: 14px;
+    font-family: 宋体;
+    font-weight: normal;
+    color: gray;
+}
+.item_miao a{
+    color: black ;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 宋体;
+}
+.portfolio-box{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.box-content .heading {
+    margin-bottom: 0px;
+    text-align: center;
+}
+.owl-carousel {
+    display: block;
+}
+.list_btn {
+    float: right;
+    margin-right: 30px;
+}
+.box-content.box-2 {
+    margin-bottom: 50px;
+}
+#shopguide-favor {
+  /* position: absolute;*/
+    top: 0px;
+    right: 0px;
+    width: 80px;
+    text-align: center;
+    color: rgb(238, 238, 238);
+    padding: 10px 5px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0px 0px 5px 5px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#shopguide-favor:hover{
+    cursor: pointer;
+
+}
+
+#shopguide-favor span {
+    display: block;
+}
+
+
+.icon_favorite{
+    font-size: 20px;
+}
